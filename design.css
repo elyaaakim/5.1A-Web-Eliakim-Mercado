@@ -2,6 +2,7 @@
 p{
     color: #19325C;
     font-size: 27px;
+    line-height: 35px;
 }
 
 a{
@@ -17,8 +18,13 @@ a{
 }
 
 .nav .nav-item a:hover{
-    color: #0C1C2D;
+    color: #ABCCE9;
 }
+
+.email{
+    font-size: 60px;
+}
+
 
 .homepage{
     background-color: #6A86C3;
@@ -43,6 +49,9 @@ a{
     height: auto;
 }
 
+.messagep{
+    color: #DCEBC2;
+}
 
 
 
@@ -59,8 +68,12 @@ a{
 .socialspage{
     background-color: #F5F5F5;
 }
-
-
+.socialspage a{
+    color: #6A86C3;
+}
+.socialspage a:hover{
+    color: #406EA3;
+}
 
 
 .aboutpage{
@@ -137,4 +150,16 @@ a{
     font-weight: 900;
     font-style: normal;
   }
+  
+  .content-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+    .content-padding {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+
   
