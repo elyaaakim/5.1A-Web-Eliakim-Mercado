@@ -34,7 +34,7 @@ a{
 
 .custom-img-logo {
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     height: auto;
   }
 .custom-img-homepage-icon{
@@ -46,12 +46,40 @@ a{
 
 
 
+
+.messagepage{
+    background-color: #6A86C3;
+}
+.workspage{
+    background-color: #F5F5F5;
+}
+.focusedworkpage{
+    background-color: #F5F5F5;
+}
+.socialspage{
+    background-color: #F5F5F5;
+}
+
+
+
+
 .aboutpage{
     background-color: #DCEBC2;
 }
 
 .aboutp{
     color: #6A86C3;
+}
+
+.logo-aboutpage{
+    position: fixed;
+    bottom: 50px; /* distance from the bottom of the screen */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    z-index: 999;
 }
 
 
