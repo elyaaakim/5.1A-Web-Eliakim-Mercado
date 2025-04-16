@@ -8,6 +8,7 @@ a{
 }
 
 
+  
 
 .homepage{
     background-color: #6A86C3;
@@ -20,6 +21,20 @@ a{
 .homepage a:hover{
     color: #9CC4B8;
 }
+
+.custom-img-logo {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+  }
+.custom-img-homepage-icon{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+
+
 
 .aboutpage{
     background-color: #DCEBC2;
