@@ -1,107 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 p{
-    color: #19325C;
-    font-size: 27px;
-    line-height: 35px;
+  color: #19325C;
+  font-size: 27px;
+  line-height: 35px;
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navmain{
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .nav .nav-item a{
-    color: #18335C;
+  color: #18335C;
 }
 
 .nav .nav-item a:hover{
-    color: #ABCCE9;
+  color: #ABCCE9;
 }
 
 .email{
-    font-size: 60px;
+  font-size: 20px;
 }
 
 
 .homepage{
-    background-color: #6A86C3;
+  background-color: #6A86C3;
 }
 
 .homepage a{
-    color: #DCEBC2;
+  color: #DCEBC2;
 }
 
 .homepage a:hover{
-    color: #9CC4B8;
+  color: #9CC4B8;
 }
 
 .custom-img-logo {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
   }
 .custom-img-homepage-icon{
-    width: 100%;
-    max-width: 150px;
-    height: auto;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
 }
 
 .messagep{
-    color: #DCEBC2;
+  color: #DCEBC2;
 }
-
-
 
 
 .messagepage{
-    background-color: #6A86C3;
+  background-color: #6A86C3;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 .workspage{
-    background-color: #F5F5F5;
+  background-color: #F5F5F5;
 }
 .focusedworkpage{
-    background-color: #F5F5F5;
+  background-color: #F5F5F5;
 }
 .socialspage{
-    background-color: #F5F5F5;
+  background-color: #F5F5F5;
 }
 .socialspage a{
-    color: #6A86C3;
+  color: #6A86C3;
 }
 .socialspage a:hover{
-    color: #406EA3;
+  color: #406EA3;
 }
 
 
 .aboutpage{
-    background-color: #DCEBC2;
+  background-color: #DCEBC2;
 }
 
 .aboutp{
-    color: #6A86C3;
+  color: #6A86C3;
 }
 
 .logo-aboutpage{
-    position: fixed;
-    bottom: 50px; /* distance from the bottom of the screen */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    z-index: 999;
+position: fixed;
+bottom: 50px; /* distance from the bottom of the screen */
+left: 50%;
+transform: translateX(-50%);
+width: 100%;
+max-width: 250px;
+height: auto;
+z-index: 999;
 }
 
 
 
 .poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
   
   .poppins-extralight {
     font-family: "Poppins", sans-serif;
@@ -162,4 +162,15 @@ a{
     }
 
 
+.initial{      
+border-radius: 20px;
+max-width: 100%;
+height: auto;
+}
+.initial-03{
+  width: 1200px;
+}
+.footer {
+padding: 80px;
+}
   
