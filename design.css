@@ -95,7 +95,10 @@ height: auto;
 z-index: 999;
 }
 
-
+.modal-content{
+  color: #19325C;
+  background-color:  #DCEBC2;
+}
 
 .poppins-thin {
 font-family: "Poppins", sans-serif;
