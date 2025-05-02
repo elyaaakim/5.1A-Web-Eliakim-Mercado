@@ -182,6 +182,10 @@ height: auto;
 padding: 80px;
 }
 
+.footer2{
+  padding: 70px;
+}
+
 .contain{
   position: relative;
   width: 50%;
