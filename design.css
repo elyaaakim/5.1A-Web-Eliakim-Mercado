@@ -5,6 +5,13 @@ p{
   line-height: 35px;
 }
 
+.work-title{
+  font-size: 27px;
+}
+
+.work-p{
+  font-size: 24px;
+}
 a{
   text-decoration: none;
 }
@@ -189,6 +196,7 @@ padding: 80px;
   display: block;
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 .overlay{
@@ -223,4 +231,8 @@ padding: 80px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.px{
+  padding: 0px 120px 0px 120px;
 }
