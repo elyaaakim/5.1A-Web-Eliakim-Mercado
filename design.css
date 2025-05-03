@@ -93,14 +93,16 @@ a{
 
 .logo-aboutpage{
 position: fixed;
-bottom: 50px; /* distance from the bottom of the screen */
+bottom: 50px; 
 left: 50%;
 transform: translateX(-50%);
 width: 100%;
 max-width: 250px;
 height: auto;
 z-index: 999;
+
 }
+
 
 .modal-content{
   color: #19325C;
@@ -239,4 +241,71 @@ padding: 80px;
 
 .px{
   padding: 0px 120px 0px 120px;
+}
+
+
+.form-control {
+  border-radius: 8px;
+  border: 2px solid #19325C;
+  background-color: #F5F5F5;
+  color: #19325C;
+  padding: 12px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:hover {
+  border-color: #DCEBC2;
+}
+
+.form-control:focus {
+  border-color: #DCEBC2;
+  box-shadow: 0 0 0 0.2rem rgba(56, 115, 226, 0.25);
+  outline: none;
+}
+
+textarea.form-control {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #DCEBC2;       
+  border: none;
+  color: #19325C;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c8dea5;
+  color: #19325C;       
+  transform: scale(1.03);
+}
+
+.btn-primary:active {
+  background-color: #c8d9ab;      
+  transform: scale(0.97);
+}
+
+.btn-secondary {
+  background-color: #F5F5F5;       /* Light neutral button */
+  color: #19325C;
+  border: none;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #e4e5e2; 
+  color: #19325C;      /* Slightly darker on hover */
+  transform: scale(1.03);
+}
+
+.btn-secondary:active {
+  background-color:  #e4e5e2;       /* Darker on click */
+  transform: scale(0.97);
 }
