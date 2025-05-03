@@ -10,7 +10,7 @@ p{
 }
 
 .work-p{
-  font-size: 24px;
+  font-size: clamp(18px, 2vw, 24px);
 }
 a{
   text-decoration: none;
@@ -60,7 +60,6 @@ a{
   color: #DCEBC2;
 }
 
-
 .messagepage{
   background-color: #6A86C3;
   padding-left: 8%;
@@ -102,7 +101,6 @@ height: auto;
 z-index: 999;
 
 }
-
 
 .modal-content{
   color: #19325C;
@@ -175,7 +173,7 @@ font-style: normal;
 
 
 .initial{      
-border-radius: 20px;
+border-radius: 10px;
 max-width: 100%;
 height: auto;
 }
@@ -185,7 +183,7 @@ padding: 80px;
 }
 
 .footer2{
-  padding: 70px;
+  padding: 50px;
 }
 
 .contain{
@@ -216,7 +214,7 @@ padding: 80px;
   opacity: 0;
   transition: .5s ease-in-out;
   background-color:#DCEBC2;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .contain:hover .overlay{
@@ -228,8 +226,8 @@ padding: 80px;
 
 .text{
   color: #19325C;
-  font-size:60px;
-  line-height: 60px;
+  font-size:3vw;
+  line-height: 3vw;
   position: absolute;
   top: 50%;
   left: 50%;
